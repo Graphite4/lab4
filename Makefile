@@ -1,2 +1,3 @@
 all:
-	g++ *.cpp -std=c++0x -o lab4
+	g++ *.cpp -Wall -std=c++0x -o main
+	./main 20
